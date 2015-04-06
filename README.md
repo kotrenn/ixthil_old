@@ -48,7 +48,7 @@ Historical Notes on Ixthil
 
 The original Ixthil was my first experience learning Python, in summer 2009.  I decided to learn Pygame at the same time and just make a simple 2D shooter engine to get a basic grasp of the fundamentals.  Over time, I came up with a few gameplay ideas that I rather liked and decided to try to make the simple project into a full game.
 
-Since this was my first Python project, much of the game was organized and hacked together as needed.  One of the biggest defects in this is that all vector math was done by hand--rather than calling say a dot product fuction such as dot(x, y), I instead manually typed in x[0] * x[0] + x[1] * x[1] every time.
+Since this was my first Python project, much of the game was organized and hacked together as needed.  One of the biggest defects in this is that all vector math was done by hand--rather than calling say a dot product fuction such as dot(x, y), I instead manually typed in x[0] * y[0] + x[1] * y[1] every time.
 
 Eventually I ported the game over to C++ to give to some family members as Christmas gifts and distribute to friends who did not have Python, and gain some general performance improvements.  Due to the Christmas deadline, it was
 a fairly blind translation, and many of the hacks from Python were copied over.  As a result, the code is a horrible mess, but it contains everything that was ever implemented in any version of Ixthil.
