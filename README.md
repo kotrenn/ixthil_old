@@ -15,12 +15,12 @@ Gameplay
 --------
 
 Controls:
-Z - Shoot
-X - Bomb
-A/S - Switch weapon
-C - Use a Blank
-D - Activate Energy
-ESC - Pause / back
+- Z - Shoot
+- X - Bomb
+- A/S - Switch weapon
+- C - Use a Blank
+- D - Activate Energy
+- ESC - Pause / back
 
 In Ixthil, the shoot button can be continuously held--repeatedly tapping the button will not increase fire rate.  To balance this, when the player is not shooting, nearby items left behind by enemies will be pulled towards the player.
 
